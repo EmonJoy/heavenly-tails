@@ -16,14 +16,14 @@
 
             
 
-            <form action="#" method="post">
+            <form id="loginForm" action="#" method="post">
                 <table cellpadding="8" cellspacing="5">
 
                     <tr>
 
 
                         <td><b>Email:</b></td>
-                        <td><input type="email" name="email" placeholder="Enter your email" size="30" required></td>
+                        <td><input type="email" name="email" id="email" placeholder="Enter your email" size="30" required></td>
 
 
                     </tr>
@@ -31,14 +31,17 @@
 
                         <td><b>Password:</b></td>
 
-                        <td><input type="password" name="password" placeholder="Enter your password" size="30" required></td>
+                        <td><input type="password" name="password" id="password" placeholder="Enter your password" size="30" required></td>
                     </tr>
                     <tr>
 
                         <td colspan="2" align="center"><br>
                             <input type="submit" value="Login">
                            
-                            <input type="reset" value="Reset">
+                            <input type="reset" id="resetBtn" value="Reset">
+                            <div id="resetSuccess" style="display: none;">
+                                Reset Successful!
+                            </div>
                         </td>
                     </tr>
                 </table>
@@ -48,6 +51,7 @@
            
             <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
         </center>
+        <script src="js/login.js"></script>
     </body>
 
 </html>
