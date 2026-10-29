@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Request</title>
+</head>
+<body>
+    <center>
+        <h1>Submit a Rescue Request</h1>
+    
+        <form action="/submit" method="POST" enctype="multipart/form-data">
+            
+         
+            <label for="photo-upload">Upload Photo:</label><br>
+            <input type="file" id="photo-upload" name="photo"><br><br>
+            
+
+            <label for="animal-select">Select type of animal:</label><br>
+            <select id="animal-select" name="animal">
+                <option value="" disabled selected>-- Please select an option --</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+            </select><br><br>
+
+          q
+            <button type="submit">Submit Request</button>
+
+        </form>
+    </center>
+</body>
+</html>
