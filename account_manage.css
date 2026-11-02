@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7f2;
+    color: #333;
+}
+
+header {
+    background-color: #355c4b;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+.account-section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.account-section h2 {
+    font-size: 28px;
+    color: #355c4b;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 35px;
+}
+
+.account-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.account-card {
+    background-color: white;
+    width: 280px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-card h3 {
+    color: #355c4b;
+    font-size: 19px;
+    margin-bottom: 15px;
+}
+
+.account-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.account-card button {
+    background-color: #355c4b;
+    color: white;
+    border: none;
+    padding: 11px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.account-card button:hover {
+    background-color: #244333;
+}
+
+footer {
+    background-color: #355c4b;
+    color: white;
+    text-align: center;
+    padding: 18px;
+    margin-top: 40px;
+    font-size: 13px;
+}
