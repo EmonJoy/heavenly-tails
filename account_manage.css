@@ -1,93 +1,77 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Arial;
     background-color: #f5f7f2;
-    color: #333;
+    margin: 0;
 }
 
-header {
-    background-color: #355c4b;
-    color: white;
+h1 {
+    background-color: transparent;
+    color: #355c4b;
     text-align: center;
     padding: 25px;
+    margin: 0;
 }
 
-header h1 {
-    font-size: 30px;
-    margin-bottom: 8px;
-}
-
-header p {
-    font-size: 14px;
-}
-
-.account-section {
-    padding: 50px 20px;
+h2 {
     text-align: center;
-}
-
-.account-section h2 {
-    font-size: 28px;
     color: #355c4b;
-    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
-.subtitle {
-    color: #666;
-    margin-bottom: 35px;
-}
-
-.account-container {
-    display: flex;
-    justify-content: center;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-
-.account-card {
+.container {
     background-color: white;
-    width: 280px;
-    padding: 30px 20px;
-    border-radius: 12px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px gray;
 }
 
-.account-card h3 {
+h3 {
+    text-align: center;
     color: #355c4b;
-    font-size: 19px;
-    margin-bottom: 15px;
-}
-
-.account-card p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.6;
     margin-bottom: 25px;
 }
 
-.account-card button {
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input:not([type="checkbox"]), select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
     background-color: #355c4b;
     color: white;
+    padding: 10px 20px;
     border: none;
-    padding: 11px 20px;
-    border-radius: 6px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.account-card button:hover {
+button:hover {
     background-color: #244333;
 }
 
-footer {
-    background-color: #355c4b;
-    color: white;
-    text-align: center;
-    padding: 18px;
-    margin-top: 40px;
-    font-size: 13px;
+.post {
+    background-color: #f5f7f2;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.post h4 {
+    color: #355c4b;
+}
+
+.post p {
+    font-size: 14px;
 }

@@ -1,51 +1,91 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Account Management - Havenly Tails</title>
+    <title>Account Management</title>
     <link rel="stylesheet" href="account_manage.css">
 </head>
 
 <body>
 
-    <header>
-        <h1>Havenly Tails</h1>
-        <p>Every Paw Deserves Care</p>
-    </header>
+    <h1>Havenly Tails</h1>
 
-    <section class="account-section">
+    <h2>Account Management</h2>
 
-        <h2>Account Management</h2>
-        <p class="subtitle">Manage your account information easily.</p>
+    <div class="container">
 
-        <div class="account-container">
+        <h3>View and Edit Profile</h3>
 
-            <div class="account-card">
-                <h3>View and Edit Profile</h3>
-                <p>View and update your personal information.</p>
-                <button>View Profile</button>
-            </div>
+        <form>
 
-            <div class="account-card">
-                <h3>Change / Reset Password</h3>
-                <p>Keep your account secure by updating your password.</p>
-                <button>Change Password</button>
-            </div>
+            <label>Full Name:</label>
+            <input type="text" placeholder="Enter your name">
 
-            <div class="account-card">
-                <h3>Manage Account Information</h3>
-                <p>Manage your account details and preferences.</p>
-                <button>Manage Account</button>
-            </div>
+            <label>Email:</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Phone Number:</label>
+            <input type="text" placeholder="Enter phone number">
+
+            <label>Address:</label>
+            <input type="text" placeholder="Enter your address">
+
+            <button type="button">Update Profile</button>
+
+        </form>
+
+    </div>
+
+
+    <div class="container">
+
+        <h3>Change / Reset Password</h3>
+
+        <form>
+
+            <label>Current Password:</label>
+            <input type="password" placeholder="Enter current password">
+
+            <label>New Password:</label>
+            <input type="password" placeholder="Enter new password">
+
+            <label>Confirm New Password:</label>
+            <input type="password" placeholder="Confirm new password">
+
+            <button type="button">Change Password</button>
+
+        </form>
+
+    </div>
+
+
+    <div class="container">
+
+        <h3>My Posts</h3>
+
+        <div class="post">
+
+            <h4>Injured Cat Near My House</h4>
+            <p>Category: Animal Rescue</p>
+            <p>Location: Dhaka</p>
+            <p>Status: Pending</p>
+
+            <button type="button">Delete Post</button>
 
         </div>
 
-    </section>
+        <div class="post">
 
-    <footer>
-        <p>&copy; 2026 Havenly Tails. All Rights Reserved.</p>
-    </footer>
+            <h4>Dog Needs Medical Assistance</h4>
+            <p>Category: Medical Assistance</p>
+            <p>Location: Mirpur, Dhaka</p>
+            <p>Status: Under Review</p>
+
+            <button type="button">Delete Post</button>
+
+        </div>
+
+    </div>
 
 </body>
 </html>
