@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit Request</title>
+    <link rel="stylesheet" href="req_submit.css">
 </head>
 <body>
     <center>
@@ -20,9 +21,13 @@
                 <option value="" disabled selected>-- Please select an option --</option>
                 <option value="Dog">Dog</option>
                 <option value="Cat">Cat</option>
+                <option value="other">Other</option>
             </select><br><br>
 
-          q
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description" rows="4" cols="50" placeholder="Provide details about the animal and the situation..." required></textarea><br><br>
+
+          
             <button type="submit">Submit Request</button>
 
         </form>
