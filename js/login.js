@@ -1,3 +1,21 @@
+document.getElementById('loginForm').addEventListener('submit', function(event){
+    let email = document.getElementById('email').value;
+    let password = document.getElementById('password').value;
+    
+    if(!email.includes('@') || !email.includes('.')){
+        alert("Please enter a valid email address.");
+        return;
+
+    }else if(password.length < 8){
+        alert("Password must be at least 8 characters long.");
+        return;
+    }
+
+
+});
+
+
+
 document.getElementById('resetBtn').addEventListener('click', function() {
     let message = document.getElementById('resetSuccess');
 
